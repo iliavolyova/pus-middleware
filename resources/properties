@@ -1,0 +1,3 @@
+create_providers_table=CREATE TABLE providers (id TEXT NOT NULL PRIMARY KEY , name TEXT NOT NULL, address TEXT NOT NULL)
+create_files_table=CREATE TABLE files (id TEXT NOT NULL PRIMARY KEY, name TEXT NOT NULL, description TEXT NOT NULL, owner TEXT NOT NULL)
+registerURL=http://127.0.0.1:8000/
